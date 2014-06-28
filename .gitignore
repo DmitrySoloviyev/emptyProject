@@ -2,5 +2,10 @@ assets/*
 !assets/.gitignore
 protected/runtime/*
 !protected/runtime/.gitignore
-protected/data/*.db
+protected/data/*.(db|sql)
 themes/classic/views/
+.directory
+/pma/*
+/vagrant/var/*
+.vagrant/*
+.idea/*
